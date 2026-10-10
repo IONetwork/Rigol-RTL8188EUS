@@ -7,7 +7,7 @@
 #& Settings
 WIFI_SSID='YOUR_SSID'         # network name to join
 WIFI_PSK='YOUR_PASSWORD'      # WPA2 passphrase; empty joins an open network
-WIFI_HOSTNAME='DM858'         # name sent to the DHCP server; empty sends none
+WIFI_HOSTNAME='DM858'         # name sent to the DHCP server, e.g. 'DM858E' or 'DG922'; empty sends none
 DRIVER_ARGS=''                # extra 8188eu module parameters, e.g. rtw_power_mgnt=0
 
 #& Paths
