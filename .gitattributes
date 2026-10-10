@@ -1,0 +1,4 @@
+#? The instrument's shell cannot run a CRLF script, so every .sh keeps LF on checkout, Windows included.
+*.sh text eol=lf
+#? cmd.exe expects CRLF, and with bare LF its label lookups can break, so every .bat checks out with CRLF.
+*.bat text eol=crlf
